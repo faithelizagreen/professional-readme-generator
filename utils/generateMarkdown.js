@@ -19,13 +19,13 @@ function renderLicenseBadge(data) {
 function renderLicenseLink(data) {
   switch (data) {
     case 'MIT':
-      return `${renderLicenseBadge}(https://opensource.org/licenses/MIT)`;
+      return `[${renderLicenseBadge(data)}](https://opensource.org/licenses/MIT)`;
     case 'APACHE 2.0':
-      return `${renderLicenseBadge}(https://opensource.org/licenses/Apache-2.0)`;
+      return `[${renderLicenseBadge(data)}](https://opensource.org/licenses/Apache-2.0)`;
     case 'GPL 3.0':
-      return `${renderLicenseBadge}(https://www.gnu.org/licenses/gpl-3.0)`;
+      return `[${renderLicenseBadge(data)}](https://www.gnu.org/licenses/gpl-3.0)`;
     case 'BSD 3':
-      return `${renderLicenseBadge}(https://opensource.org/licenses/BSD-3-Clause)`;
+      return `[${renderLicenseBadge(data)}](https://opensource.org/licenses/BSD-3-Clause)`;
     default:
       return '';
 }
@@ -39,9 +39,11 @@ function renderLicenseSection(data) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const badge = renderLicenseSection(data.license)
+
   return `# ${data.title}
 
-  ![License Badge](https://img.shields.io/static/v1?label=License&message=${data.license.split(' ').join('-')}&color=success)
+  ${badge}
   
   ## Description
   ${data.description}

@@ -1,9 +1,9 @@
-# test project name
+# README Generator
 
-  ![License Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=success)
+  [![License:MIT](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
   
   ## Description
-  test description
+  A Node.js application that generates README files from the command line.
 
   ## Table of Contents
   - [Installation](#installation)
@@ -21,13 +21,13 @@
   ```
 
   ## Usage
-  test usage
+  This application uses the inquirer package to provide a series of prompts in the command line to generate a professional README file. Open the directory containing this application and run node index.js in the terminal. Once all prompts have been answered, a completed README file will generate.
 
   ## License
   This application is licensed under MIT.
 
   ## Contribution
-  test contribution
+  If you would like to contribute to this project, please add your code and create a pull request.
 
   ## Testing
   Please run the following command to test:
@@ -38,5 +38,5 @@
   
   ## Questions?
   For any questions, please contact me via e-mail. Thank you!
-  - E-mail: test email
-  - GitHub: test username
+  - E-mail: faithgreen@knights.ucf.edu
+  - GitHub: faithelizagreen
