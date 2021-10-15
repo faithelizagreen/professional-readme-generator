@@ -21,7 +21,7 @@
   ```
 
   ## Usage
-  This application uses the inquirer package to provide a series of prompts in the command line to generate a professional README file. Open the directory containing this application and run node index.js in the terminal. Once all prompts have been answered, a completed README file will generate.
+  This application uses the inquirer package to provide a series of prompts in the command line to generate a professional README file. Open the directory containing this application and run `node index.js` in the terminal. Once all prompts have been answered, a completed README file will generate.
 
   ## License
   This application is licensed under MIT.
@@ -39,4 +39,4 @@
   ## Questions?
   For any questions, please contact me via e-mail. Thank you!
   - E-mail: faithgreen@knights.ucf.edu
-  - GitHub: faithelizagreen
+  - GitHub: [faithelizagreen](https://github.com/faithelizagreen)

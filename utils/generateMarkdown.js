@@ -82,7 +82,7 @@ function generateMarkdown(data) {
   ## Questions?
   For any questions, please contact me via e-mail. Thank you!
   - E-mail: ${data.email}
-  - GitHub: ${data.github}
+  - GitHub: [${data.github}](https://github.com/${data.github})
 `;
 }
 
